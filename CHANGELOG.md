@@ -1,3 +1,16 @@
+# [1.1.0-dev.1](https://github.com/scrazzz/revanced-patches-scruz/compare/v1.0.4...v1.1.0-dev.1) (2026-01-18)
+
+
+### Bug Fixes
+
+* **patches.api:** api dump ([0a0f803](https://github.com/scrazzz/revanced-patches-scruz/commit/0a0f803fd157ced5e00ce173e1229c20b1a53373))
+
+
+### Features
+
+* add new patch ([524a545](https://github.com/scrazzz/revanced-patches-scruz/commit/524a54551ae318aa0a3416c3d6b16389c4fa1b0f))
+* update readme ([db90c9c](https://github.com/scrazzz/revanced-patches-scruz/commit/db90c9c8074f0d720cb134a152a6ee47d61fe384))
+
 ## [1.0.4](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.3...v1.0.4) (2024-11-05)
 
 ## [1.0.4-dev.2](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.4-dev.1...v1.0.4-dev.2) (2024-11-05)
