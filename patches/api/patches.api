@@ -1,8 +1,8 @@
-public final class app/revanced/patches/azscreenrecorder/pro/UnlockProKt {
+public final class app/scruz/patches/azscreenrecorder/pro/UnlockProKt {
 	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/util/BytecodeUtilsKt {
+public final class app/scruz/util/BytecodeUtilsKt {
 	public static final fun addInstructionsAtControlFlowLabel (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;ILjava/lang/String;)V
 	public static final fun addInstructionsAtControlFlowLabel (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;ILjava/lang/String;[Lapp/revanced/patcher/util/smali/ExternalLabel;)V
 	public static final fun containsLiteralInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;D)Z
@@ -72,16 +72,16 @@ public final class app/revanced/util/BytecodeUtilsKt {
 	public static final fun traverseClassHierarchy (Lapp/revanced/patcher/patch/BytecodePatchContext;Lapp/revanced/patcher/util/proxy/mutableTypes/MutableClass;Lkotlin/jvm/functions/Function1;)V
 }
 
-public final class app/revanced/util/ResourceGroup {
+public final class app/scruz/util/ResourceGroup {
 	public fun <init> (Ljava/lang/String;[Ljava/lang/String;)V
 	public final fun getResourceDirectoryName ()Ljava/lang/String;
 	public final fun getResources ()[Ljava/lang/String;
 }
 
-public final class app/revanced/util/ResourceUtilsKt {
+public final class app/scruz/util/ResourceUtilsKt {
 	public static final fun asSequence (Lorg/w3c/dom/NodeList;)Lkotlin/sequences/Sequence;
 	public static final fun childElementsSequence (Lorg/w3c/dom/Node;)Lkotlin/sequences/Sequence;
-	public static final fun copyResources (Lapp/revanced/patcher/patch/ResourcePatchContext;Ljava/lang/String;[Lapp/revanced/util/ResourceGroup;)V
+	public static final fun copyResources (Lapp/revanced/patcher/patch/ResourcePatchContext;Ljava/lang/String;[Lapp/scruz/util/ResourceGroup;)V
 	public static final fun copyXmlNode (Ljava/lang/String;Lapp/revanced/patcher/util/Document;Lapp/revanced/patcher/util/Document;)Ljava/lang/AutoCloseable;
 	public static final fun doRecursively (Lorg/w3c/dom/Node;Lkotlin/jvm/functions/Function1;)V
 	public static final fun forEachChildElement (Lorg/w3c/dom/Node;Lkotlin/jvm/functions/Function1;)V
@@ -90,13 +90,13 @@ public final class app/revanced/util/ResourceUtilsKt {
 	public static final fun removeFromParent (Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
 }
 
-public abstract class app/revanced/util/resource/BaseResource {
+public abstract class app/scruz/util/resource/BaseResource {
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;)V
 	public fun equals (Ljava/lang/Object;)Z
 	public final fun getName ()Ljava/lang/String;
 	public final fun getTag ()Ljava/lang/String;
 	public fun hashCode ()I
 	public fun serialize (Lorg/w3c/dom/Document;Lkotlin/jvm/functions/Function1;)Lorg/w3c/dom/Element;
-	public static synthetic fun serialize$default (Lapp/revanced/util/resource/BaseResource;Lorg/w3c/dom/Document;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lorg/w3c/dom/Element;
+	public static synthetic fun serialize$default (Lapp/scruz/util/resource/BaseResource;Lorg/w3c/dom/Document;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lorg/w3c/dom/Element;
 }
 
