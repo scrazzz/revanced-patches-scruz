@@ -1,3 +1,5 @@
+## [1.0.5-dev.1](https://github.com/scrazzz/revanced-patches-scruz/compare/v1.0.4...v1.0.5-dev.1) (2026-03-10)
+
 ## [1.0.5-dev.1](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.4...v1.0.5-dev.1) (2026-02-21)
 
 ## [1.0.4](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.3...v1.0.4) (2024-11-05)
